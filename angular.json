@@ -21,12 +21,17 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/core",
+              "src/assets/ui",
+              "src/files"
             ],
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/webviewer.min.js"
+            ]
           },
           "configurations": {
             "production": {
